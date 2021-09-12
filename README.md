@@ -40,6 +40,10 @@ To run Gmapping package
 ``` bash
 roslaunch rover gmapping.launch
 ```
+To run Karto-SLAM package
+```bash
+roslaunch rover karto_slam.launch
+```
 
 ## NAVIGATION STACK
 

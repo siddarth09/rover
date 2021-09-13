@@ -45,6 +45,7 @@ To run Karto-SLAM package
 roslaunch rover karto_slam.launch
 ```
 To run Hector-slam package
+
 Note:
 >Please make sure your lidar ros package is publishing /scan topic 
 

@@ -75,3 +75,24 @@ roslaunch rover navigation.launch map_file:=
 ```
 #### MAKE SURE YOU HAVE MAPPED YOU ENVIRONMENT PROPERLY and SPECIFY THE MAP LOCATION AT MAP_FILE ARGUMENT 
 
+## MAPVIZ 
+
+Mapviz is a graphical user interface for gps based navigation. 
+Installation:
+```bash
+cd ~/catkin_ws/src
+git clone https://github.com/swri-robotics/mapviz.git
+cd ..
+catkin_make
+```
+To run the mapviz package
+```bash
+roslaunch rover mapviz.launch 
+```
+NOTE:
+>If you want to change the latitude and longitude, you can go to google maps and get your coordinates
+
+
+![DAY 89](https://user-images.githubusercontent.com/60263608/135597335-25901068-eda2-492b-8cde-9ea412dec134.JPG)
+
+
